@@ -8,10 +8,6 @@ public class DuplicatesOff {
     private static Set<Integer> setUnique = new LinkedHashSet<>();
     private static int counter = 0;
 
-    DuplicatesOff() {
-        arrayOfDigits = new int[]{3, 2, 3, 1, 4, 2, 8, 3};
-    }
-
     DuplicatesOff(int[] array) {
         arrayOfDigits = array;
     }

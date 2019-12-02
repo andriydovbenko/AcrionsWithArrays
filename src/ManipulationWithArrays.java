@@ -19,7 +19,8 @@ public class ManipulationWithArrays {
         System.out.println("Average of a list of numbers: " + formater.format(averageValue));
 
         //last one
-        DuplicatesOff duplicatesOff = new DuplicatesOff();
+        int [] array = {3, 2, 3, 1, 4, 2, 8, 3};
+        DuplicatesOff duplicatesOff = new DuplicatesOff(array);
         int[] newArray = duplicatesOff.replacingDuplicates();
         System.out.println("Modified array: " + Arrays.toString(newArray));
     }
