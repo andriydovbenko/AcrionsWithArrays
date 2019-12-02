@@ -6,7 +6,7 @@ public class AverageNumber {
             tempValue += i;
         }
         if (tempValue != 0) {
-            return (tempValue/ (double) arrayOfDigit.length);
-        }else return 0;
+            return (tempValue / (double) arrayOfDigit.length);
+        } else return 0;
     }
 }

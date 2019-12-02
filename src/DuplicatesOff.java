@@ -25,13 +25,13 @@ public class DuplicatesOff {
         }
     }
 
-    public int [] replacingDuplicates () {
-        System.out.println("Original array: "+ Arrays.toString(arrayOfDigits));
+    public int[] replacingDuplicates() {
+        System.out.println("Original array: " + Arrays.toString(arrayOfDigits));
         for (int i = 0; i < arrayOfDigits.length; i++) {
             if (i == 0) {
                 setUnique.add(arrayOfDigits[i]);
                 counter++;
-            }else {
+            } else {
                 checkUniqueness(arrayOfDigits[i]);
                 setUnique.add(arrayOfDigits[i]);
                 counter++;

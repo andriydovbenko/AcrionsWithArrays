@@ -3,9 +3,9 @@ import java.util.Collections;
 
 public class DescendingArraySort {
 
-    private Integer [] array;
+    private Integer[] array;
 
-    DescendingArraySort(){
+    DescendingArraySort() {
         array = new Integer[]{2, 3, 1, 7, 11};
     }
 
@@ -14,8 +14,8 @@ public class DescendingArraySort {
     }
 
     public void transformInDescendingOrder() {
-        System.out.println("old array: "+Arrays.toString(array));
+        System.out.println("old array: " + Arrays.toString(array));
         Arrays.sort(array, Collections.reverseOrder());
-        System.out.println("new array: "+ Arrays.toString(array));
+        System.out.println("new array: " + Arrays.toString(array));
     }
 }

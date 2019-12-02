@@ -20,7 +20,7 @@ public class ManipulationWithArrays {
 
         //last one
         DuplicatesOff duplicatesOff = new DuplicatesOff();
-        int [] newArray = duplicatesOff.replacingDuplicates();
-        System.out.println("Modified array: "+Arrays.toString(newArray));
+        int[] newArray = duplicatesOff.replacingDuplicates();
+        System.out.println("Modified array: " + Arrays.toString(newArray));
     }
 }
